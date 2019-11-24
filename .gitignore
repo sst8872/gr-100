@@ -1,0 +1,11 @@
+.*
+!/.gitignore
+
+# node module folder
+node_modules/
+
+# cache files
+.cache/
+
+# webstorm
+.idea/

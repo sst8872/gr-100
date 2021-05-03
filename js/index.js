@@ -17,7 +17,7 @@ let card = {
 window.addEventListener('load', init);
 
 function init(e) {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzFD0d1_dTd2xOwaxlqTSN-UwFL5mIPYaOEqTX3aeHoz2TJNP7y/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwFv0BgJDh-HtzeMYRhchSH66V51CSOZ7GP70hY4p0GiscZ6O7gbzdSnGXOgy2JrV5i/exec';
     fetch(scriptURL)
         .then(res => res.json())
         .then(data => {

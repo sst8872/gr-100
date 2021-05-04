@@ -8,6 +8,7 @@ const prev = document.querySelector('.back');
 const next = document.querySelector('.next');
 const showAnswer = document.querySelector('.show-answer');
 const cardIndex = document.querySelector('.index');
+const spinner = document.querySelector('.lds-spinner');
 
 let card = {
     currentPage: 0,
@@ -21,6 +22,9 @@ function init(e) {
     fetch(scriptURL)
         .then(res => res.json())
         .then(data => {
+            if (data) {
+                spinner.style.display = 'none';
+            }
             card.contents = arrayToObject(data);
             loadPage(1);
             scrollBar(card.contents, loadPage);

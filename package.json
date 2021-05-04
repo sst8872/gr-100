@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "cssnano": "^4.1.11"
+    "cssnano": "^4.1.11",
+    "parcel-bundler": "^1.12.5"
   },
   "scripts": {
     "dev": "parcel index.html",

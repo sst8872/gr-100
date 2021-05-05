@@ -11,6 +11,10 @@ body {
   box-sizing: border-box;
 }
 
+#title > h1 {
+  color: #bbb;
+}
+
 #flashcard {
   border: 3px solid #3d7587;
   border-radius: 5px;
@@ -158,7 +162,7 @@ button:hover {
 }
 
 footer {
-  margin: 100px 20px 50px;
+  margin: 50px 20px 50px;
   font-size: 14px;
   color: #90becd;
 }
